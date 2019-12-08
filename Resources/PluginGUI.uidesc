@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<vstgui-ui-description version="1">
+	<fonts />
+	<colors>
+		<color name="kLightGreyCColor" rgba="#c8c8c8ff" />
+		<color name="kDarkGreyCColor" rgba="#646464ff" />
+	</colors>
+	<template background-color="~ GreyCColor" background-color-draw-style="filled and stroked" class="CViewContainer" maxSize="678, 346" minSize="678, 346" mouse-enabled="true" name="Editor" opacity="1" origin="0, 0" size="678, 346" transparent="false">
+		<view background-color="kLightGreyCColor" background-color-draw-style="filled and stroked" bitmap="" class="CViewContainer" custom-view-name="" mouse-enabled="true" origin="110 ,115" rafxtemplate-type="userViewContainer" size="458 ,116" template="User ViewContainer 0" transparent="false" sub-controller="BankWaveController_0" />
+	</template>
+	<custom>
+		<attributes Path="" name="ASPiKEditor" />
+		<attributes name="FocusDrawing" />
+		<attributes KnobAction="2" name="Settings" />
+		<attributes Size="10, 10" name="UIGridController" />
+		<attributes SelectedTemplate="Editor" name="UITemplateController" />
+		<attributes name="UIAttributesController" />
+		<attributes EditViewScale="1" EditorSize="0, 0, 1024, 768" EncodeBitmaps="true" SplitViewSize_0_0="0.6613119143239625241648127484950236976147" SplitViewSize_0_1="0.3119143239625167263184835064748767763376" SplitViewSize_1_0="0.4779116465863453844242769719130592420697" SplitViewSize_1_1="0.5153949129852744004409714762005023658276" SplitViewSize_2_0="0.7560842322750649380225240747677162289619" SplitViewSize_2_1="0.2373056451794015864198428289455478079617" TabSwitchValue="0" Version="1" WriteRCFile="false" name="UIEditController" />
+		<attributes AppendUnits="true" />
+		<attributes TransparentEdits="true" />
+		<attributes default-blurb-color="~ BlackCColor" />
+		<attributes RAFXShowGrid="false" />
+		<attributes SelectedRow="0" name="UIViewCreatorDataSource" />
+		<attributes SelectedRow="0" name="UIBitmapsDataSource" />
+		<attributes SelectedRow="0" name="UITagsDataSource" />
+		<attributes Path="C:\Users\natha\Documents\RackAFX Projects\Synth test\Resources\PluginGUI.uidesc" />
+		<attributes rafx-template-name="User ViewContainer 0" rafxtemplate-type="userViewContainer" />
+	</custom>
+	<bitmaps />
+	<control-tags>
+		<control-tag name="controlID::masterPitchBend" tag="9" />
+		<control-tag name="controlID::masterTune" tag="19" />
+		<control-tag name="controlID::masterVolume_dB" tag="29" />
+		<control-tag name="controlID::lfo1Waveform" tag="50" />
+		<control-tag name="controlID::lfo1Mode" tag="51" />
+		<control-tag name="controlID::lfo1Frequency" tag="52" />
+		<control-tag name="controlID::lfo1DelayTime_mSec" tag="53" />
+		<control-tag name="controlID::lfo1RampTime_mSec" tag="54" />
+		<control-tag name="controlID::lfo2Frequency" tag="30" />
+		<control-tag name="controlID::waveShapeX" tag="32" />
+		<control-tag name="controlID::waveShapeY" tag="33" />
+		<control-tag name="controlID::osc1_waveForm" tag="55" />
+		<control-tag name="controlID::osc1_BankIndex" tag="56" />
+		<control-tag name="controlID::osc2_waveForm" tag="65" />
+		<control-tag name="controlID::osc2_BankIndex" tag="66" />
+		<control-tag name="controlID::osc3_waveForm" tag="57" />
+		<control-tag name="controlID::osc3_BankIndex" tag="67" />
+		<control-tag name="controlID::osc4_waveForm" tag="58" />
+		<control-tag name="controlID::osc4_BankIndex" tag="68" />
+		<control-tag name="controlID::EG1_attackTime_mSec" tag="72" />
+		<control-tag name="controlID::EG1_decayTime_mSec" tag="74" />
+		<control-tag name="controlID::EG1_sustainLevel" tag="75" />
+		<control-tag name="controlID::EG1_releaseTime_mSec" tag="76" />
+		<control-tag name="controlID::EG1_holdTime_mSec" tag="73" />
+		<control-tag name="controlID::EG1_delayTime_mSec" tag="77" />
+		<control-tag name="controlID::EG1_mode" tag="78" />
+		<control-tag name="controlID::manualRT" tag="79" />
+		<control-tag name="controlID::startVal" tag="71" />
+		<control-tag name="controlID::endVal" tag="70" />
+		<control-tag name="controlID::filterFc" tag="44" />
+		<control-tag name="controlID::filterQ" tag="45" />
+		<control-tag name="controlID::lfo1Amp" tag="90" />
+		<control-tag name="controlID::eg1Amp" tag="100" />
+		<control-tag name="controlID::osc1FoAmp" tag="81" />
+		<control-tag name="controlID::osc2FoAmp" tag="82" />
+		<control-tag name="controlID::lfo1toOsc1" tag="91" />
+		<control-tag name="controlID::lfo1toOsc2" tag="92" />
+		<control-tag name="controlID::eg1toOsc1" tag="101" />
+		<control-tag name="controlID::eg1toOsc2" tag="102" />
+		<control-tag name="controlID::keyTrackRatio" tag="47" />
+		<control-tag name="controlID::enableKeyTrack" tag="48" />
+		<control-tag name="controlID::engineMode" tag="20" />
+		<control-tag name="controlID::unisonDetune" tag="21" />
+		<control-tag name="controlID::arpOn" tag="0" />
+		<control-tag name="controlID::arpScale" tag="1" />
+		<control-tag name="controlID::arpMode" tag="2" />
+		<control-tag name="controlID::arpTimeMsec" tag="3" />
+		<control-tag name="XY_TRACKPAD" tag="131073" />
+		<control-tag name="VECTOR_JOYSTICK" tag="131074" />
+		<control-tag name="PRESET_NAME" tag="131075" />
+		<control-tag name="WRITE_PRESET_FILE" tag="131076" />
+		<control-tag name="SCALE_GUI_SIZE" tag="131077" />
+	</control-tags>
+	<variables />
+	<gradients>
+		<gradient name="kLightGreyCColor">
+			<color-stop rgba="#c8c8c8ff" start="0" />
+			<color-stop rgba="#c8c8c8ff" start="1" />
+		</gradient>
+		<gradient name="kDarkGreyCColor">
+			<color-stop rgba="#646464ff" start="0" />
+			<color-stop rgba="#646464ff" start="1" />
+		</gradient>
+	</gradients>
+	<template background-color="kLightGreyCColor" background-color-draw-style="filled and stroked" bitmap="" class="CViewContainer" custom-view-name="" mouse-enabled="true" name="User ViewContainer 0" origin="0, 0" size="458 ,116" transparent="false" sub-controller="BankWaveController_0">
+		<view back-color="~ BlackCColor" background-offset="0, 0" class="COptionMenu" control-tag="controlID::osc1_BankIndex" custom-view-name="BankMenu" default-value="0.5" font="~ NormalFontSmaller" font-antialias="true" font-color="~ WhiteCColor" frame-color="~ BlackCColor" frame-width="1" max-value="" menu-check-style="false" menu-popup-style="false" min-value="0" mouse-enabled="true" origin="50 ,50" round-rect-radius="6" shadow-color="~ RedCColor" size="122 ,20" style-3D-in="false" style-3D-out="false" style-no-draw="false" style-no-frame="false" style-no-text="false" style-round-rect="false" style-shadow-text="false" sub-controller="" text-alignment="" text-inset="0, 0" title="SEL 1" transparent="false" value-precision="2" wheel-inc-value="0.1" />
+		<view back-color="~ BlackCColor" background-offset="0, 0" class="COptionMenu" control-tag="controlID::osc1_waveForm" custom-view-name="WaveMenu" default-value="0.5" font="~ NormalFontSmaller" font-antialias="true" font-color="~ WhiteCColor" frame-color="~ BlackCColor" frame-width="1" max-value="" menu-check-style="false" menu-popup-style="false" min-value="0" mouse-enabled="true" origin="280 ,50" round-rect-radius="6" shadow-color="~ RedCColor" size="131 ,20" style-3D-in="false" style-3D-out="false" style-no-draw="false" style-no-frame="false" style-no-text="false" style-round-rect="false" style-shadow-text="false" sub-controller="" text-alignment="" text-inset="0, 0" title="SEL 1" transparent="false" value-precision="2" wheel-inc-value="0.1" />
+	</template>
+</vstgui-ui-description>
